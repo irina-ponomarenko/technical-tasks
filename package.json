@@ -18,5 +18,10 @@
   "homepage": "https://github.com/irina-ponomarenko/technical-tasks#readme",
   "devDependencies": {
     "jest": "^26.6.3"
+  },
+  "type": "module",
+  "jest": {
+    "verbose": true,
+    "moduleDirectories": ["node_modules", "01_Reverse_String"]
   }
 }
